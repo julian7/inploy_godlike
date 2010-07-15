@@ -1,0 +1,28 @@
+PATH
+  remote: .
+  specs:
+    inploy_godlike (0.1.0)
+      inploy (>= 1.6.3)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    diff-lcs (1.1.2)
+    inploy (1.6.3)
+    rake (0.8.7)
+    rspec (2.0.0.beta.17)
+      rspec-core (= 2.0.0.beta.17)
+      rspec-expectations (= 2.0.0.beta.17)
+      rspec-mocks (= 2.0.0.beta.17)
+    rspec-core (2.0.0.beta.17)
+    rspec-expectations (2.0.0.beta.17)
+      diff-lcs (>= 1.1.2)
+    rspec-mocks (2.0.0.beta.17)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  inploy_godlike!
+  rake
+  rspec (>= 2.0.0.beta.17)
